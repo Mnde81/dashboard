@@ -8,7 +8,7 @@ aside {
 .logo {
     margin-left: 60px;
     margin-top: 20px;
-    width: 50px;
+    width: 120px;
 }
 
 .main-nav {
@@ -23,12 +23,19 @@ aside {
     margin-left: 50px;
 }
 
+.pitch {
+    width: 170px;
+}
+
 .nav-list-2 {
     display: flex;
     flex-direction: column;
+   
     margin-top: 10px;
     margin-left: 50px;
 }
+
+
 
 .link {
     font-size: 17px;
