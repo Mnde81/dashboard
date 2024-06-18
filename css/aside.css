@@ -7,8 +7,8 @@ aside {
 }
 
 .logo {
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-left: 50px;
+    margin-top: 7px;
     width: 120px;
 }
 
@@ -20,12 +20,12 @@ aside {
 .nav-list-1 {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
 }
 
 .pitch {
-    width: 170px;
+    width: 150px;
 }
 
 .nav-list-2 {
@@ -39,8 +39,8 @@ aside {
 
 
 .link {
-    font-size: 17px;
-    padding: 30px;
+    font-size: 14px;
+    padding: 20px;
     text-decoration: none;
     color: black;    
 }
@@ -50,42 +50,42 @@ aside {
 }
 
 .nav-icons-dashboard {
-    width: 25px;
+    width: 20px;
     position: absolute;
-    top: 28px;
-    left: -14px;
+    top: 18px;
+    left: -17px;
 }
 
 .nav-icons-2 {
-    width: 25px;
+    width: 20px;
     position: absolute;
-    top: 107px;
-    left: -14px;
+    top: 72px;
+    left: -17px;
 }
 
 .nav-icons-3 {
-    width: 27px;
+    width: 23px;
     position: absolute;
-    top: 190px;
-    left: -14px;
+    top: 130px;
+    left: -17px;
 }
 
 .nav-icons-4 {
-    width: 25px;
+    width: 20px;
     position: absolute;
-    top: 267px;
-    left: -14px;
+    top: 185px;
+    left: -17px;
 }
 
 .nav-icons-5 {
-    width: 25px;
+    width: 20px;
     position: absolute;
-    top: 347px;
-    left: -14px;
+    top: 240px;
+    left: -17px;
 }
 
 .upgrade {
-    width: 150px;
-    margin-left: 60px;
+    width: 120px;
+    margin-left: 55px;
     margin-top: 30px;
 }
