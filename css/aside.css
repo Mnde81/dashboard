@@ -1,7 +1,8 @@
 aside {    
     padding: 30px;  
     padding-left: 0;  
-    background-color: #EAF4FF;    
+    /* background-color: #EAF4FF;  */
+    background-color: #fff;    
    
 }
 
@@ -19,7 +20,7 @@ aside {
 .nav-list-1 {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 50px;
 }
 
@@ -30,9 +31,9 @@ aside {
 .nav-list-2 {
     display: flex;
     flex-direction: column;
-   
+    position: relative;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 
@@ -46,4 +47,45 @@ aside {
 
 .active {
     color: #6F62AE;
+}
+
+.nav-icons-1 {
+    width: 25px;
+    position: absolute;
+    top: 28px;
+    left: -14px;
+}
+
+.nav-icons-2 {
+    width: 25px;
+    position: absolute;
+    top: 107px;
+    left: -14px;
+}
+
+.nav-icons-3 {
+    width: 27px;
+    position: absolute;
+    top: 190px;
+    left: -14px;
+}
+
+.nav-icons-4 {
+    width: 25px;
+    position: absolute;
+    top: 267px;
+    left: -14px;
+}
+
+.nav-icons-5 {
+    width: 25px;
+    position: absolute;
+    top: 347px;
+    left: -14px;
+}
+
+.upgrade {
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
