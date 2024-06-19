@@ -16,6 +16,59 @@ body {
 
 
 main {   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header"
+    "hi hi hi hi"
+    "overview overview overview overview"
+    "open-rate complete unique-views total-views"
+    "next-in-fashion next-in-fashion next-in-fashion next-in-fashion"
+    "digital-marketing-today digital-marketing-today digital-marketing-today digital-marketing-today";
+    align-items: start;
+    align-content: start;
+    gap: 20px;
+    padding: 20px 30px;
     background-color: white;     
     
+}
+
+.hi {
+    grid-area: hi;
+    border: 1px solid red;
+}
+
+.overview {
+    grid-area: overview;
+    border: 1px solid red;
+}
+
+.open-rate {
+    grid-area: open-rate;
+    border: 1px solid red;
+}
+
+.complete {
+    grid-area: complete;
+    border: 1px solid red;
+}
+
+.unique-views {
+    grid-area: unique-views;
+    border: 1px solid red;
+}
+
+.total-views {
+    grid-area: total-views;
+    border: 1px solid red;
+}
+
+.next-in-fashion {
+    grid-area: next-in-fashion;
+    border: 1px solid red;
+}
+
+.digital-marketing-today {
+    grid-area: digital-marketing-today;
+    border: 1px solid red;
 }
