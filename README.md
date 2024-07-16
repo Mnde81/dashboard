@@ -21,7 +21,7 @@ Design: [Dashboard](https://dribbble.com/shots/11101900-Pitch-Dashboard/attachme
 -   CSS flex
 -   CSS grid
 -   SVG images
--   **NO** responsive design
+-   responsive design
 
 ## 🧰 Getting Started
 

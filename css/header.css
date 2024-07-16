@@ -1,20 +1,16 @@
 .main-header {
     grid-area: header;
     display: flex;
-    justify-content: space-between;
-    /* padding: 5px; */
+    justify-content: space-between;    
     align-items: center;
-
 }
 
 .main-dashboard {
     display: flex;
     flex-direction: column;
     margin-left: 4px;
-    margin-top: 20px;
-   
+    margin-top: 20px;   
     position: relative;
-
 }
 
 .dashboard-p {
@@ -22,24 +18,18 @@
     font-size: 17px;
     position: absolute;
     bottom: 17px;
-    
-    
-
 }
 
 .main-day-date {
-    display: flex;
-  
+    display: flex;  
 }
 
 .day-p {
     color: #6F62AE;
-
 }
 
 .date-p {
     color: #CDCDCD;
-
 }
 
 .user-block {
@@ -47,19 +37,17 @@
     align-items: center;
     gap: 30px;;
     margin-right: 70px;
-
 }
 
 .main-notifications {
     display: flex;
     align-items: center;
-    gap: 50px;;
-
-    
+    gap: 50px;    
 }
 
 .notifications {
     width: 25px;
+    cursor: pointer;
 }
 
 .user-name {
@@ -67,7 +55,6 @@
     align-items: center;
     gap: 10px;;
     margin-left: 20px;
-
 }
 
 .name-abr {
@@ -85,3 +72,4 @@
 .user-name > .fa {
     text-decoration: none;
 }
+
